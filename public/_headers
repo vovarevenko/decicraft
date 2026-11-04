@@ -1,0 +1,5 @@
+# SharedArrayBuffer (world storage shared with workers) requires cross-origin isolation:
+# Cloudflare sends these with every file of the site, as the Vite dev and preview servers do.
+/*
+  Cross-Origin-Opener-Policy: same-origin
+  Cross-Origin-Embedder-Policy: require-corp
